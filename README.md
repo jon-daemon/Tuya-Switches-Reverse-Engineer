@@ -80,29 +80,28 @@
 </p>
 
 # Pinouts
-#### 1 Sensor
+#### 1/2/3 Gangs
 
-**(haven't tested 2/3/4 yet!)**
+**(haven't tested 4 gangs!)**
 
 *the first two columns are the pins of the unknown chip*
 
-| SMATRUL | W3C | 1/2/3 Sensors        |                                 |                                     |
+| SMATRUL | W6C | 1/2/3 Sensors        |                                 |                                     |
 | ------- | --- | -------------------- | ------------------------------- | ----------------------------------- |
 | 1       |     | buzzer               |                                 |                                     |
 | 2       |     | 4 pads connector (2) |                                 |                                     |
 | 3       |     | 4 pads connector (3) |                                 |                                     |
-| 4       | 12  | ESP P24/IO5          |                                 | sends touch 2 signal                |
-| 5       | 11  | ESP P25/IO3/Rx       | *unsolder for UART flash*       | sends touch signal                  |
+| 4       | 12  | ESP P24/IO5          |                                 | sends touch Middle signal           |
+| 5       | 11  | ESP P25/IO3/Rx       | *unsolder for UART flash*       | sends touch Left signal             |
 | 6       |     | 4K7 -- > ESP P26/IO1 | -- > 1K -- > status LED cathode |                                     |
 |         |     | 1K -- > PNP? base    | collector -- > BLUE LEDs anode  |                                     |
 | 7       |     |                      |                                 |                                     |
-| 8       | 16  | Touch  1             |                                 | reads touch L signal                |
-| 9       | 1   | Touch  2             |                                 | reads touch M signal                |
-| 10      | 2   | Touch  3             |                                 | reads touch R signal                |
-| 11      | 15  | ESP P16/IO4          |                                 | sends touch signal                  |
-| 12      |     | ESP P12/IO13         | Relay 1                         | LED Left BLUE cathode / RED anode   |
-| 13      |     | ESP P10/IO12         | Relay 2                         | LED Middle BLUE cathode / RED anode |
-| 14      |     | ESP P9/IO14          | Relay 3                         | LED Right BLUE cathode / RED anode  |
+| 8       | 16  | Touch  1             |                                 | reads touch Left signal             |
+| 9       | 1   | Touch  2             |                                 | reads touch Middle signal           |
+| 10      | 2   | Touch  3             |                                 | reads touch Right signal            |
+| 11      | 15  | ESP P16/IO4          |                                 | sends touch Right signal            |
+| 12      |     | ESP P12/IO13         | Relay 1 (Left touch)            | LED Left BLUE cathode / RED anode   |
+| 13      |     | ESP P10/IO12         | Relay 2 (Middle touch)          | LED Middle BLUE cathode / RED anode |
+| 14      |     | ESP P9/IO14          | Relay 3 (Right touch)           | LED Right BLUE cathode / RED anode  |
 | 15      |     |                      |                                 |                                     |
 | 16      |     | GND                  |                                 |                                     |
-
