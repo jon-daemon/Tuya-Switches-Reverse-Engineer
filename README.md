@@ -1,6 +1,8 @@
 # Tuya-Switches-Reverse-Engineer
 
-## Connections
+# Connections
+
+## 1/2/3 Gangs
 
 *Not all connectors on every variation*
 #### Front PCB
@@ -18,10 +20,11 @@
 | ------- | ------- | ------- |
 | 3V3     | GND     | 3V3     |
 
-## Photos
+# Photos
 
-### 1 Sensor
+### 1 Gang
 
+**ESP8285**
 *Tuya version 1.1.1*
 
 <p align="center">
@@ -43,8 +46,9 @@
   <img src="https://github.com/jon-daemon/Tuya-Switches-Reverse-Engineer/assets/206048/963a644a-02ae-440f-8c20-77edb33e3248" width="30%">
 </p>
 
-### 2 Sensors
+### 2 Gangs
 
+**ESP8285**
 *Tuya version 1.1.2*
 
 <p align="center">
@@ -55,8 +59,9 @@
   <img src="https://github.com/jon-daemon/Tuya-Switches-Reverse-Engineer/assets/206048/530156da-1ef9-4171-ac1e-4ec35045982b" width="30%">
 </p>
 
-### 3 Sensors
+### 3 Gangs
 
+**ESP8285**
 *Tuya version 1.1.2*
 
 <p align="center">
@@ -67,8 +72,9 @@
   <img src="https://github.com/jon-daemon/Tuya-Switches-Reverse-Engineer/assets/206048/245c5cbc-a715-49a2-84a7-98d7fb56b611" width="30%">
 </p>
 
-### 4 Sensors
+### 4 Gangs
 
+**WR3 - RTL8710BN**
 *Tuya version 1.1.8*
 
 <p align="center">
@@ -80,9 +86,8 @@
 </p>
 
 # Pinouts
-#### 1/2/3 Gangs
 
-**(haven't tested 4 gangs!)**
+## 1/2/3 gangs
 
 *the first two columns are the pins of the unknown chip*
 
@@ -105,3 +110,20 @@
 | 14      |     | ESP P9/IO14          | Relay 3 (Right touch)           | LED Right BLUE cathode / RED anode  |
 | 15      |     |                      |                                 |                                     |
 | 16      |     | GND                  |                                 |                                     |
+
+## 4 gangs
+
+### Board WR3 [info](https://docs.libretiny.eu/boards/wr3/) and [flashing guide](https://docs.libretiny.eu/docs/platform/realtek-ambz/)
+
+| RTL8710BN Pin |          |
+| ------------- | -------- |
+| PA23          | blue LED |
+| PA0           | Relay 1  |
+| PA14          | Relay 2  |
+| PA5           | Relay 3  |
+| PA12          | Relay 4  |
+| PA15          | Touch 1  |
+| PA19          | Touch 2  |
+| PA18          | Touch 3  |
+| PA22          | Touch 4  |
+
