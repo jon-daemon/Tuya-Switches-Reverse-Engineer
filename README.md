@@ -2,7 +2,7 @@
 
 # Connections
 
-## 1/2/3 Gang
+## 1/2/3 gang
 
 *Not all connectors on every variation*
 #### Front PCB
