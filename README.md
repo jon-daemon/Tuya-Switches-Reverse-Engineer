@@ -2,7 +2,7 @@
 
 # Connections
 
-## 1/2/3 Gangs
+## 1/2/3 Gang
 
 *Not all connectors on every variation*
 #### Front PCB
@@ -22,7 +22,7 @@
 
 # Photos
 
-### 1 Gang
+### 1 gang
 
 **ESP8285**
 *Tuya version 1.1.1*
@@ -46,7 +46,7 @@
   <img src="https://github.com/jon-daemon/Tuya-Switches-Reverse-Engineer/assets/206048/963a644a-02ae-440f-8c20-77edb33e3248" width="30%">
 </p>
 
-### 2 Gangs
+### 2 gang
 
 **ESP8285**
 *Tuya version 1.1.2*
@@ -59,7 +59,7 @@
   <img src="https://github.com/jon-daemon/Tuya-Switches-Reverse-Engineer/assets/206048/530156da-1ef9-4171-ac1e-4ec35045982b" width="30%">
 </p>
 
-### 3 Gangs
+### 3 gang
 
 **ESP8285**
 *Tuya version 1.1.2*
@@ -72,7 +72,7 @@
   <img src="https://github.com/jon-daemon/Tuya-Switches-Reverse-Engineer/assets/206048/245c5cbc-a715-49a2-84a7-98d7fb56b611" width="30%">
 </p>
 
-### 4 Gangs
+### 4 gang
 
 **WR3 - RTL8710BN**
 *Tuya version 1.1.8*
@@ -87,7 +87,7 @@
 
 # Pinouts
 
-## 1/2/3 gangs
+## 1/2/3 gang
 
 *the first two columns are the pins of the unknown chip*
 
@@ -111,7 +111,7 @@
 | 15      |     |                      |                                 |                                     |
 | 16      |     | GND                  |                                 |                                     |
 
-## 4 gangs
+## 4 gang
 
 ### Board WR3 [info](https://docs.libretiny.eu/boards/wr3/) and [flashing guide](https://docs.libretiny.eu/docs/platform/realtek-ambz/)
 
